@@ -7,27 +7,27 @@
 
 }
 .photo-column {
-    width: 260px;
-    height: 380px;
+    width: 40%;
+    height: 100%;
     background-image: url(photo.png);
     margin-right: 2px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 0 0 10px;
 }
 .information-column {
-    width: 383px;
-    height: 380px;
+    width: 59%;
+    height: 100%;
     background-color: white;
     display: flex;
     flex-direction: column;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0 10px 10px 0;
 
 }
 .name-row {
-    width: 383px;
-    height: 190px;
+    width: 100%;
+    height: 50%;
     background-color: #192028;
     margin-bottom: 2px;
-    border-radius: 0px 10px 0px 0px;
+    border-radius: 0 10px 0 0;
 
 }
 .first-name {
@@ -53,28 +53,28 @@
 }
 
 .address-row{
-    width: 383px;
-    height: 190px;
+    width: 100%;
+    height: 50%;
     background-color: #2B3944;
-    border-radius: 0px 0px 10px 0px;
+    border-radius: 0 0 10px 0;
 }
 
 
 .phone-number .e-mail-address .address{
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
     font-family: "Roboto";
-    display: inline-block;
+
 }
 .icon{
-    width: 5%;
-    height:15px;
-    display: inline-block;
-    padding-left: 5%;
-    margin-top: 15px;
+    width: 15px;
+    height: 15px;
+    padding-left: 10px;
+    margin-top: 10px;
 }
 .right{
-    display: inline-block;
     border-bottom: 1px solid rgba(255,255,255,0.4);
     width: 325px;
     height:23px;
